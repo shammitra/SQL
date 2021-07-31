@@ -1,4 +1,4 @@
-# Basic query of single table to extract top 50 employees born between 1960 and 1965, ordered by age,
+# Basic query of single table to extract top 50 employees born between 1960 and 1965, ordered by descending age,
 # indicating employees nearing retirement.
 
 SELECT 	first_name as 'First Name', 
