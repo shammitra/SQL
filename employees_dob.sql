@@ -1,4 +1,4 @@
-# Basic query of single table to extract all employees born between 1960 and 1922, ordered by years of service,
+# Basic query of single table to extract all employees born between 1960 and 1962, ordered by years of service,
 # indicating employees nearing retirement.
 
 SELECT 	first_name as 'First Name', 
