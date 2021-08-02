@@ -8,3 +8,6 @@ WHERE cv1.country = cv2.country AND cv1.vaccines = "Oxford/AstraZeneca"
 GROUP BY cv1.country;
 
 # The countries are: Antigua and Barbuda, Barbados, and Botswana.
+
+# NB: In order for GROUP BY to work in the way this SQL statement is expressed, an update to the configuration of sql_mode is required. 
+#     This will require running the following SQL command: SET sql_mode=(SELECT REPLACE(@@sql_mode,'ONLY_FULL_GROUP_BY',''));
